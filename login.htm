@@ -1,0 +1,39 @@
+<html>
+
+<head>
+<script language="javascript" src="controle1.js"> </script>
+<meta http-equiv="Content-Language" content="fr">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>login <img border="0"  src="images.jpg" width="33" height="36" align="right"></title>
+
+</head>
+
+<body onload="return captcha()"  >
+
+<form method="POST" onsubmit="return verif1()"  action="login.php" name="f">
+	
+	<p><sub><b><font size="5" face="Bahnschrift" color="#000099"><cite><dfn>&nbsp;login :</dfn></cite></font></b></sub></p>
+	<hr color="#CC0000">
+	<p>&nbsp;</p>
+	<p>email:<input type="text" name="t1" size="15">&nbsp; mot de passe :<input type="password" name="t2" size="15"></p>
+		<table border="1" class="ms-simple1-0111-main" bgcolor="#FF3300" width="1089" height="95">
+		<!-- fpstyle: 1,101111100 -->
+		<tr>
+			<td class="ms-simple1-0111-tl" bgcolor="#FF3300" style="background-color: #FFCC99" valign="bottom">
+			<p align="center"><b><font color="#3333CC">recaptcha:</b></font><input type="text" name="t3" size="15">&nbsp; 
+			<font color="#3333CC"><b>answer </b></font>
+			<input type="text" name="t4" size="15"><img border="0"  type="button" src="images.jpg" width="33" height="36" align="right"></p>
+					</td>
+		</tr>
+	</table>
+	<blockquote>
+		<p align="center">
+		&nbsp;</p>
+	</blockquote>
+	<p>&nbsp;</p>
+	<p><input type="submit"  value="envoyer" name="B1"><input type="reset" value="Reset" name="B2"></p>
+</form>
+
+</body>
+
+</html>
